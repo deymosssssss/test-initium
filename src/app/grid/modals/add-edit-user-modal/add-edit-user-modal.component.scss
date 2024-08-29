@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.controls {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: flex-end;
+}
+
+.delete {
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}

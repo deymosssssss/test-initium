@@ -1,0 +1,11 @@
+<div class="content">
+  <div>Удалить выбранные строки ({{ data.selected.length }})?</div>
+
+  <!-- <button mat-button>Отмена</button>
+  <button mat-stroked-button>Basic</button> -->
+
+  <div class="controls">
+    <button mat-button (click)="close()">Отмена</button>
+    <button class="delete" mat-stroked-button (click)="delete()">Удалить</button>
+  </div>
+</div>

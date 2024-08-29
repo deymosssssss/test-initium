@@ -1,0 +1,72 @@
+:host {
+  display: block;
+
+  margin-top: 20px;
+
+  // todo : delete
+  overflow: hidden;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.mat-table-container {
+  height: 100%;
+  overflow: auto;
+
+  background-color: white;
+}
+
+.sticky-table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #ffffff; /* Make sure background is set */
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4); /* Add shadow to distinguish from rows */
+}
+
+.mat-header-row {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #ffffff;
+}
+
+::ng-deep thead th {
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+  background-color: white;
+}
+
+td,
+th {
+  padding: 16px;
+  cursor: pointer;
+}
+
+.controls {
+  padding: 10px;
+}
+
+.control-btn {
+  border: none;
+  background-color: white;
+}
+
+.align-right {
+  text-align: right;
+}
+
+td.selected {
+  background-color: #e9f3ff;
+}
